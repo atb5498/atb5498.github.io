@@ -1,0 +1,45 @@
+body {
+    background-image: url(../images/groovepaper_@2X.png);
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.name {
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 75px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 25px;
+    color: white;
+    float: left;
+}
+
+header {
+    background-color: #ffffff;
+    height: 75px;
+    border-bottom: #cccccc solid 2px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: 50px;
+    border: #dddddd solid 2px;
+    height: 300px;
+}
