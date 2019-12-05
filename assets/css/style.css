@@ -100,34 +100,3 @@ a {
     float: left;
     margin-right: 25px;
 }
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 12px 20px;
-    cursor: pointer;
-    border: none;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #dddddd;
-  }
-
-
-  .main-contact {
-    background-color: #ffffff;
-    padding: 30px;
-    margin-top: 50px;
-    border: #dddddd solid 2px;
-    height: 400px;
-}

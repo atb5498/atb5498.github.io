@@ -1,3 +1,8 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
 body {
     background-image: url(../images/groovepaper_@2X.png);
 }
@@ -31,6 +36,12 @@ h1 {
     color: #4aaaa5;
 }
 
+li {
+    display: inline;
+    padding: 25px 0px 25px 25px;
+    height: 15px;
+}
+
 nav {
     float: right;
     margin-top: 30px;
@@ -41,5 +52,58 @@ main {
     padding: 30px;
     margin-top: 50px;
     border: #dddddd solid 2px;
-    height: 300px;
+    height: 400px;
+}
+
+.line {
+    background-color: #dddddd;
+    height: 4px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: #666666;
+    height: 50px;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: small;
+    color: white;
+    padding-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+}
+  
+input[type=submit]:hover {
+    background-color: #dddddd;
 }
