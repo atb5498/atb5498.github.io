@@ -48,7 +48,7 @@ table {
 }
 
 body {
-    background-color: white
+    background-image: url(../images/groovepaper_@2X.png);
 }
 
 .container {
@@ -83,6 +83,7 @@ h1 {
 li {
     display: inline;
     padding: 25px 0px 25px 25px;
+    height: 15px;
 }
 
 nav {
@@ -94,8 +95,8 @@ main {
     background-color: #ffffff;
     padding: 30px;
     margin-top: 50px;
-    margin-bottom: 150px;
     border: #dddddd solid 2px;
+    height: 300px;
 }
 
 p {
@@ -131,4 +132,15 @@ h2 {
     color: white;
     padding-top: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+}
+
+.picture {
+    float: left;
+    margin-right: 25px;
 }
