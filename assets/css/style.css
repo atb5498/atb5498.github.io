@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background-color: white
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.name {
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 75px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 25px;
+    color: white;
+    float: left;
+}
+
+header {
+    background-color: #ffffff;
+    height: 75px;
+    border-bottom: #cccccc solid 2px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+li {
+    display: inline;
+    padding: 25px 0px 25px 25px;
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    border: #dddddd solid 2px;
+}
+
+p {
+    line-height: 25px;
+    color: #777777;
+}
+
+.line {
+    background-color: #dddddd;
+    height: 4px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+img {
+    max-height: 50%;
+    width: auto;
+}
+
+footer {
+    background-color: #666666;
+    height: 50px;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: small;
+    color: white;
+    padding-top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
