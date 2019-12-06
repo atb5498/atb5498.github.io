@@ -99,3 +99,10 @@ a {
     float: left;
     margin-right: 25px;
 }
+
+#nav-separator {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    padding-left: 30px;
+    padding-right: 30px;
+}

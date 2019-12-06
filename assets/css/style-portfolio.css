@@ -38,7 +38,7 @@ h1 {
 
 li {
     display: inline;
-    padding: 25px 0px 25px 25px;
+    margin: 25px 0px 25px 25px;
     height: 15px;
 }
 
@@ -104,4 +104,11 @@ a {
     bottom: 10px;
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#nav-separator {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    padding-left: 30px;
+    padding-right: 30px;
 }
