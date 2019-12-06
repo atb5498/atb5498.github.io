@@ -19,7 +19,7 @@ body {
     text-align: center;
     box-sizing: border-box;
     padding: 25px;
-    color: white;
+    color: #ffffff;
     float: left;
 }
 
@@ -38,7 +38,7 @@ h1 {
 
 li {
     display: inline;
-    padding: 25px 0px 25px 25px;
+    margin: 25px 0px 25px 25px;
     height: 15px;
 }
 
